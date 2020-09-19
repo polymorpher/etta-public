@@ -9,18 +9,28 @@
     <link rel="icon" type="image/png" href="imgs/etta-logo.png"/>
     <script src="./bundle.js" type="text/javascript" defer></script>
     <script>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-PT46K5C');
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', 'GTM-PT46K5C')
     </script>
 </head>
 
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT46K5C"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT46K5C"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
 <header class="c-head">
     <div class="container c-head__container">
@@ -39,7 +49,7 @@
                 <li><a href="/" class="c-head__link">HOME</a>
                 </li>
                 <li><a href="/about.html" class="c-head__link">ABOUT US</a></li>
-                <li><a href="/covid.html" class="c-head__link">COVID</a></li>
+                <!--                <li><a href="/covid.html" class="c-head__link">COVID</a></li>-->
                 <li><a href="/science.html" class="c-head__link">THE SCIENCE</a></li>
                 <li><a href="/pipeline.html" class="c-head__link">PIPELINE</a></li>
                 <li><a href="/about.html#contact" class="c-head__link">CONTACT US</a></li>
@@ -56,10 +66,12 @@
     </div>
 </div>
 <div class="container after-hero">
-    <p class="home-desc">We are developing medicines to selectively eliminate senescent cells, called senolytic medicines. Derma topical treatment is our initial focus on delivering localized therapy in xeroderma pigmentosum, cockayne syndrome, and skin cancer. Beyond cellular senescence, we are discovering additional ways of intervening age-associated diseases.</p>
+    <p class="home-desc">
+        We are first targeting skin conditions of accelerated aging diseases as a proof-of-principle of our approach, then rapidly expanding to aging-related diseases with unmet needs.
+    </p>
 </div>
 <div class="container-fluid pipeline">
-    <img class="image-fit" src="/imgs/pipeline-plan.jpg"/>
+    <img class="image-fit" src="/imgs/pipeline.jpg"/>
 </div>
 <div class="container-fluid hero">
     <div class="bg-container">
@@ -70,27 +82,68 @@
     </div>
 </div>
 <div class="container after-hero">
-    <h3 class="home-title small">Creating the first clinical treatment targeting aging for accelerated aging diseases</h3>
+    <h3 class="home-title">Start with the skin</h3>
 </div>
 
 <div class="container section">
-    <h3 class="home-title small">24-hour Derma Monitoring, Anywhere, Anytime</h3>
-    <div class="flex">
-        <div class="nano-skin">
-            <img alt="" class="image-fit" src="/imgs/pipeline-rats.jpg"/>
+    <h3 class="home-title small">As the biggest organ, the skin has a large influence over aging.</h3>
+    <div class="nano-skin">
+        <img alt="" class="image-fit" src="/imgs/pipeline-skin.jpg"/>
+    </div>
+    <p class="home-desc small"> By starting with the skin, we can move quickly and safely to prove the benefits of our approach.</p>
+</div>
+    <div class="container-fluid hero">
+        <div class="bg-container">
+            <img alt="" src="/imgs/pipeline-skin-condition-bg.jpg"/>
         </div>
-        <div class="nano-skin">
-            <img alt="" class="image-fit" src="/imgs/pipeline-disease.jpg"/>
+        <div class="bg-text large mobile-large">
+            Fisetin Can Treat Multiple Skin Conditions
         </div>
     </div>
-    <p class="citation">Harish Chandra Pal et al., 2014 PLos One<br/>
-        Gun-Dong Kim et al., 2014 Food and Chem Toxicol<br/>
-        Myung-Soo Shon et al., 2016 Food Sci Biotechnol<br/>
-    </p>
-    <p class="home-desc">Fisetin has been shown to treat many aging-related skin conditions and diseases in preclinical trials.</p>
-    <p class="home-desc">Fisetin is not very soluble and is a weak binder to its target. On its own, fisetin cannot be delivered across the skin.</p>
-    <p class="home-desc">Modified nanoparticles can help solubilize fisetin.</p>
-    <p class="home-desc">Embedded nanoparticles also help deliver fisetin across the barrier of the skin for penetrating effects underneath the skin.</p>
+
+<div class="container section">
+    <div class="flex flex-row">
+        <div class="flex-item-margin">
+            <div class="flex flex-column">
+                <h3 class="home-title small">Melanoma</h3>
+                <div>
+                    <img alt="" class="image-fit" src="/imgs/pipeline-melanoma.jpg"/>
+                </div>
+                <p class="home-desc small h-text-center flex-item-margin">Psoriasis and dermatitis can also be treated with fisetin</p>
+            </div>
+        </div>
+        <div class="flex-item-margin">
+            <div class="flex flex-column">
+                <h3 class="home-title small">Xeroderma Pigmentosum</h3>
+                <div>
+                    <img alt="" class="image-fit" src="/imgs/pipeline-xeroderma.jpg"/>
+                </div>
+            </div>
+        </div>
+        <div class="flex-item-margin">
+            <div class="flex flex-column">
+                <h3 class="home-title small">UV damages</h3>
+                <div>
+                    <img alt="" class="image-fit" src="/imgs/pipeline-rats.jpg"/>
+                </div>
+                <div class="citation">
+                    Mario Sechi et al., 2018 Sci Rep<br/>
+                    Matthew J. Yousefzadeh et al., 2018 EBioMedicine<br/>
+                    Po-Yuan Wu et al., 2017 Int J Mol Sci<br/>
+                    Jean Christopher Chamcheu et al., 2019 Cells<br/>
+                    Gun-Dong Kim et al., 2014 Food Chem Toxicol<br/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    <p class="citation">Harish Chandra Pal et al., 2014 PLos One<br/>-->
+    <!--        Gun-Dong Kim et al., 2014 Food and Chem Toxicol<br/>-->
+    <!--        Myung-Soo Shon et al., 2016 Food Sci Biotechnol<br/>-->
+    <!--    </p>-->
+    <!--    <p class="home-desc">Fisetin has been shown to treat many aging-related skin conditions and diseases in preclinical trials.</p>-->
+    <!--    <p class="home-desc">Fisetin is not very soluble and is a weak binder to its target. On its own, fisetin cannot be delivered across the skin.</p>-->
+    <!--    <p class="home-desc">Modified nanoparticles can help solubilize fisetin.</p>-->
+    <!--    <p class="home-desc">Embedded nanoparticles also help deliver fisetin across the barrier of the skin for penetrating effects underneath the skin.</p>-->
 
 </div>
 
@@ -105,7 +158,7 @@
                 <div class="footer-col-heading"><a href="https://ettabiotechnology.com" target="_blank"><img
                         src='/imgs/etta.png' alt='ETTA'/></a></div>
                 <div class="footer-col-item">© 2020 ETTA Biotechnology, All rights reserved.</div>
-                <div class="footer-col-item">200 Infinity Way<br/>Mountain View, CA 94043<br/>United States</div>
+                <div class="footer-col-item">San Francisco, CA 94131<br/>United States</div>
             </div>
             <div class="footer-column footer-column-1">
                 <div class="footer-col-heading">Social</div>
